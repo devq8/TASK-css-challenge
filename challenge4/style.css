@@ -1,15 +1,31 @@
 /* Add your code in each class */
 body {
+  background-color: darkslateblue;
 }
 .container {
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background-color: darkslateblue;
 }
 .movie-card {
+  z-index: 0;
+  padding: 50px;
 }
 .movie-image {
+  width: 400px;
+  object-fit: fill;
+  object-position: 100%;
 }
 .movie-details-container {
 }
 .descriptions {
+}
+h3 {
+  font-weight: bold;
 }
 
 /*A gift from us!*/
@@ -28,4 +44,17 @@ body {
   );
 }
 .movie-title {
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+  color: white;
+}
+p {
+  text-align: justify;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+
+  color: white;
 }

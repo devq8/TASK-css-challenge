@@ -1,0 +1,16 @@
+body {
+  background-color: darkslateblue;
+}
+img {
+  width: 300px;
+}
+.image {
+  padding: 50px;
+  text-align: center;
+}
+p {
+}
+h1 {
+  font-family: "Passions Conflict", cursive;
+  font-size: 70px;
+}

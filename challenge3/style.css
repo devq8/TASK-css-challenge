@@ -1,11 +1,25 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  padding: 20px;
 }
 .head {
+  font-family: "Rubik Mono One", sans-serif;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: lightblue;
+  color: darkslategray;
+  overflow: scroll;
+}
+
+.list {
+  font-family: "Cutive Mono", monospace;
 }
 
 /* This is a gift - Does not need editing */
