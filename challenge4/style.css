@@ -3,12 +3,11 @@ body {
   background-color: darkslateblue;
 }
 .container {
-  display: flexbox;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
-  top: 0;
-  bottom: 0;
+  height: 100vh;
   background-color: darkslateblue;
 }
 .movie-card {
@@ -19,6 +18,7 @@ body {
   width: 400px;
   object-fit: fill;
   object-position: 100%;
+  
 }
 .movie-details-container {
 }
@@ -33,9 +33,9 @@ h3 {
   /*
     This gradient was made by this website https://cssgradient.io/
 */
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  /* position: absolute; */
+  /* height: 100%; */
+  /* width: 100%; */
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,

@@ -1,6 +1,7 @@
 body {
   background-image: url("../assets/pokemon-bg.jpg");
 }
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -9,8 +10,9 @@ body {
   position: relative;
   min-height: 100vh;
 }
+
 .box {
-  border-radius: 20%;
+  border-radius: 40px;
   box-shadow: 2px 2px 20px;
   padding: 10px;
   background-color: white;
@@ -21,9 +23,11 @@ body {
 h3 {
   text-align: center;
 }
+
 p {
   text-align: center;
 }
+
 .profile-image {
   width: 70px;
   border-radius: 50%;
